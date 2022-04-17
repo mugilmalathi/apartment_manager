@@ -1,0 +1,30 @@
+#signin{
+    border: 1px solid blue;
+    border-radius: 20px;
+    width: 20%;
+    margin: auto;
+    margin-top: 150px;
+}
+button{
+    margin-bottom: 30px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+h4{
+    color: blue;
+}
+label{
+    color: gray;
+}
