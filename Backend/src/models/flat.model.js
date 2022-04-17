@@ -10,3 +10,5 @@ const flatSchema = new mongoose.Schema({
     versionkey: false,
     timestamps: true
 })
+
+module.exports = mongoose.model("flat", flatSchema)
