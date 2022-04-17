@@ -3,13 +3,13 @@ const router = express.Router();
 
 const Flat = require("../models/flat.model");
 
-router.post("/flat", async(req, res)=>{
-    const flat = await Flat.create(req.body);
+router.get("/flat", async(req, res)=>{
+    const flat = await Flat.find().lean().exec();
     res.send(flat);
 })
 
-router.get("/flat", async(req, res)=>{
-    const flat = await Flat.find().lean().exec();
+router.post("/flat", async(req, res)=>{
+    const flat = await Flat.create(req.body);
     res.send(flat);
 })
 
